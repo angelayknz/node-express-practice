@@ -4,7 +4,7 @@
  */
 exports.up = function (knex) {
   return knex.schema.createTable('student', (table) => {
-    table.increments().primary
+    table.increments().primary //automatic primary key
     table.string('name') //255 char
     table.text('bio') //long text, unlimited
     table.date('dob')
