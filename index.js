@@ -35,6 +35,7 @@ const lessons = [{ name: 'mod1', id: '1', cohort: 'sdffg' }]
 //   { name: 'mod2', id: '2', cohort: 'sdffg' },
 // ]
 
+// server.get() advanced **************************
 const channels = []
 
 server.post('/api/channels', (req, res) => {
