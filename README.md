@@ -7,4 +7,6 @@ add a licence
 create package.json**
 npm init -y
 **
-set up express server**
+install express server**
+
+start script with nodemon in dev development
